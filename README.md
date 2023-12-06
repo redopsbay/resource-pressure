@@ -79,7 +79,7 @@ spec:
         version: v1
     spec:
       containers:
-      - image: docker.io/alfredvalderrama/resource-pressure:v1
+      - image: redopsbay/resource-pressure:v1
         imagePullPolicy: IfNotPresent
         name: resource-pressure
         env:
